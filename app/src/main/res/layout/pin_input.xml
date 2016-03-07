@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/myroundlayout">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="50dp"
+        android:id="@+id/txtPin"
+        android:background="@drawable/edit_text_bg"
+        android:hint="PIN"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="OK"
+            android:id="@+id/btnOK"
+            android:textColor="#F03589"
+            android:background="@drawable/myround"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:textColor="#FF00"
+            android:id="@+id/btnCancel"
+            android:layout_alignBottom="@+id/btnOK"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btnOK"
+            android:background="@drawable/myround"/>
+    </RelativeLayout>
+</LinearLayout>

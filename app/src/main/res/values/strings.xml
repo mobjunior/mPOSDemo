@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">mPOS Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="init">Init</string>
+    <string name="btnbattery">Battery  Level</string>
+    <string name="btncardinformation">Card  Information</string>
+    <string name="btninsert">Detect Insert</string>
+    <string name="btnemvdata">EMV Data</string>
+    <string name="btnGetVersion">Get Reader Version</string>
+    <string name="title_activity_send_data_to_server">SendDataToServer</string>
+    <string name="btnSendData">Send Data</string>
+    <!--=============INQUIRIES==============-->
+    <string name="btnInquiries">Inquiries</string>
+
+    <!--=============BALANCE ENQUIRY BY CARD===============-->
+    <string name="btnGetbatterylevel">Check Battery Level</string>
+    <string name="btnSendrequest">Balance Enquiry</string>
+    <string name="textStatus">Status</string>
+
+    <!-- =========BALANCE ENQUIRY BY MWALLET ACCOUNT==========-->
+    <string name="btnmwok">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <!--===========Spinner Resource Items===========-->
+    <string-array name="AccountsArray">
+        <item>289348348548954894</item>
+        <item>267485696036486934</item>
+        <item>9684675728475826476</item>
+        <item>EWUW873478874983489</item>
+        <item>8734873RG73480450343</item>
+    </string-array>
+
+</resources>
